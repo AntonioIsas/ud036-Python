@@ -9,7 +9,10 @@ def draw_art():
     window.bgcolor("red")
 
     brad = turtle.Turtle()
-    draw_square(brad)
+
+    for i in range(1, 37):
+        draw_square(brad)
+        brad.right(10)
 
     angie = turtle.Turtle()
     angie.circle(100)
